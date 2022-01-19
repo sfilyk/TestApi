@@ -78,8 +78,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TaskData.cs" />
-    <Compile Include="ListData.cs" />
+    <Compile Include="BaseTask.cs" />
+    <Compile Include="QuestSessionId.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

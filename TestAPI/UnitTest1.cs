@@ -8,9 +8,8 @@ namespace TestAPI
         [Test]
         public void TestMethod1()
         {
-            var taskData = new TaskData();
-            var responce = taskData.GetKeyId();
-           //Assert.AreEqual(2,responce.guest_session_id);
+            var baseTask = new BaseTask();
+            var responce = baseTask.GetKeyId();
             Assert.AreEqual("true",responce.success);
         }
 
